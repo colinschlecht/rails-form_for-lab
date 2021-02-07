@@ -1,0 +1,5 @@
+<h1>Class info</h1>
+<h3>Name: <%= @class.title%></h3>
+<h3>Room: <%= @class.room_number%></h3>
+<%= link_to 'back', school_classes_path %>
+<%= link_to 'edit', edit_school_class_path(@class) %>
